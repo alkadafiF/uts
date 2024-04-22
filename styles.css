@@ -1,0 +1,123 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#gambar-body {
+    width: 100%;
+}
+
+nav {
+    background-color: #005357;
+    color: #fff;
+    padding: 10px;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #fff;
+    font-family: 'Lucida Grande';
+    font-size: 35px;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.text-center h3 {
+   
+    font-size: 45px; 
+    line-height: 1.5; 
+    letter-spacing: 1px; 
+    margin-bottom: 20px;
+    font-family: Geneva, Verdana, sans-serif;
+    box-shadow: 15px;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+
+.gambar-container {
+    position: relative;
+    text-align: center;
+}
+
+.text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.text-center h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #003cff;
+    color: #fff;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    background-color: #c82333;
+}
+
+
+.content {
+    display: flex;
+    align-items: center; 
+}
+
+.content-left {
+    flex: 1; 
+}
+
+.content-right {
+    flex: 1;
+    text-align: center; 
+}
+
+.gambar-kiri {
+    max-width: 95%; 
+    height: auto; 
+}
+
+.btn {
+    margin-top: 10px; 
+    align-self: flex-start; 
+}
+
+footer {
+    background-color: #005357;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
