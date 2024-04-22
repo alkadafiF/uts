@@ -1,0 +1,92 @@
+.banner {
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20230328/pngtree-perfume-blue-grass-background-image_2120139.jpg")
+    no-repeat center center;
+   background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+nav {
+    background-color: #005357;
+}
+
+.navbar-brand {
+    
+    color: #fff;
+    font-family: 'Lucida Grande';
+    font-size: 35px;
+    width: 100px;
+}
+
+.nav-item {
+    color: #fff;
+    position: relative;
+    width: 35px;
+    height: 50px;
+}
+
+.fa-solid.fa-magnifying-glass{
+    color: #fff;
+}
+
+.fa-solid.fa-cart-shopping {
+    color: #fff;
+}
+
+.fa-solid.fa-bag-shopping {
+    color: #fff;
+}
+
+.fa-solid.fa-user {
+    color: #fff;
+}
+
+.display-1 {
+    color: #fff;
+    font-family: Geneva, Verdana, sans-serif;
+    box-shadow: 15px;
+}
+
+.btn {
+   box-shadow: 0 8px 16px 0 rgba(142, 255, 240, 0.2), 0 6px 20px 0 rgba(39, 255, 219, 0.19) !important;
+}
+
+.btn-danger {
+    padding: 20px 50px;
+}
+
+
+#gambar-body {
+    width: 500px;
+}
+
+.container-fluid.pt-5.pb-5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row.align-items-center > div {
+    text-align: center;
+}
+
+.col-md-6 img {
+    width: 50px;
+}
+
+.col-md-6 p {
+    font-size: 18px; 
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #005357;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
